@@ -18,12 +18,12 @@
 */
 
 /* Set the delay between fresh samples */
-#define BNO055_SAMPLERATE_DELAY_MS (100)
+#define BNO055_SAMPLERATE_DELAY_MS (10)
 
 Adafruit_BNO055 bno = Adafruit_BNO055();
 
 byte buffer[64];
-float x,y,z;
+float x,y,z,qw,qx,qy,qz;
 
 /**************************************************************************/
 /*
@@ -88,27 +88,38 @@ void loop(void)
   Serial.print(z);
   Serial.print("\t\t");
 
+  
+  
+  // Quaternion data
+  imu::Quaternion quat = bno.getQuat();
+  qw = quat.w();
+  qx = quat.x();
+  qy = quat.y();
+  qz = quat.z();
+  Serial.print("qW: ");
+  Serial.print(qw);
+  Serial.print(" qX: ");
+  Serial.print(qx);
+  Serial.print(" qY: ");
+  Serial.print(qy);
+  Serial.print(" qZ: ");
+  Serial.print(qz);
+  Serial.print("\t\t");
+
+
+
   memcpy(&buffer[0],&x,4);
   memcpy(&buffer[4],&y,4);
   memcpy(&buffer[8],&z,4);
-  for(int i=12;i<64;i++){
+
+  memcpy(&buffer[12],&qw,4);
+  memcpy(&buffer[16],&qx,4);
+  memcpy(&buffer[20],&qy,4);
+  memcpy(&buffer[24],&qz,4);
+  for(int i=28;i<64;i++){
     buffer[i] = 0x0;
   }
-
-  RawHID.send(buffer, 100);
-  /*
-  // Quaternion data
-  imu::Quaternion quat = bno.getQuat();
-  Serial.print("qW: ");
-  Serial.print(quat.w(), 4);
-  Serial.print(" qX: ");
-  Serial.print(quat.y(), 4);
-  Serial.print(" qY: ");
-  Serial.print(quat.x(), 4);
-  Serial.print(" qZ: ");
-  Serial.print(quat.z(), 4);
-  Serial.print("\t\t");
-  */
+  RawHID.send(buffer, 10);
 
   /* Display calibration status for each sensor. */
   uint8_t system, gyro, accel, mag = 0;

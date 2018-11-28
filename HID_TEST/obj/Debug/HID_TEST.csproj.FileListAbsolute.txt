@@ -8,3 +8,13 @@ c:\users\yequs\source\repos\HID_TEST\HID_TEST\obj\Debug\HID_TEST.csproj.CoreComp
 c:\users\yequs\source\repos\HID_TEST\HID_TEST\obj\Debug\HID_TEST.csproj.CopyComplete
 c:\users\yequs\source\repos\HID_TEST\HID_TEST\obj\Debug\HID_TEST.exe
 c:\users\yequs\source\repos\HID_TEST\HID_TEST\obj\Debug\HID_TEST.pdb
+C:\Users\yequs\Documents\GitHub\HID_Test\HID_TEST\bin\Debug\HID_TEST.exe.config
+C:\Users\yequs\Documents\GitHub\HID_Test\HID_TEST\bin\Debug\HID_TEST.exe
+C:\Users\yequs\Documents\GitHub\HID_Test\HID_TEST\bin\Debug\HID_TEST.pdb
+C:\Users\yequs\Documents\GitHub\HID_Test\HID_TEST\bin\Debug\HidLibrary.dll
+C:\Users\yequs\Documents\GitHub\HID_Test\HID_TEST\bin\Debug\HidLibrary.pdb
+C:\Users\yequs\Documents\GitHub\HID_Test\HID_TEST\obj\Debug\HID_TEST.csprojAssemblyReference.cache
+C:\Users\yequs\Documents\GitHub\HID_Test\HID_TEST\obj\Debug\HID_TEST.csproj.CoreCompileInputs.cache
+C:\Users\yequs\Documents\GitHub\HID_Test\HID_TEST\obj\Debug\HID_TEST.csproj.CopyComplete
+C:\Users\yequs\Documents\GitHub\HID_Test\HID_TEST\obj\Debug\HID_TEST.exe
+C:\Users\yequs\Documents\GitHub\HID_Test\HID_TEST\obj\Debug\HID_TEST.pdb
