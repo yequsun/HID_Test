@@ -1,0 +1,10 @@
+c:\users\yequs\source\repos\HID_TEST\HID_TEST\bin\Debug\HID_TEST.exe.config
+c:\users\yequs\source\repos\HID_TEST\HID_TEST\bin\Debug\HID_TEST.exe
+c:\users\yequs\source\repos\HID_TEST\HID_TEST\bin\Debug\HID_TEST.pdb
+c:\users\yequs\source\repos\HID_TEST\HID_TEST\bin\Debug\HidLibrary.dll
+c:\users\yequs\source\repos\HID_TEST\HID_TEST\bin\Debug\HidLibrary.pdb
+c:\users\yequs\source\repos\HID_TEST\HID_TEST\obj\Debug\HID_TEST.csprojAssemblyReference.cache
+c:\users\yequs\source\repos\HID_TEST\HID_TEST\obj\Debug\HID_TEST.csproj.CoreCompileInputs.cache
+c:\users\yequs\source\repos\HID_TEST\HID_TEST\obj\Debug\HID_TEST.csproj.CopyComplete
+c:\users\yequs\source\repos\HID_TEST\HID_TEST\obj\Debug\HID_TEST.exe
+c:\users\yequs\source\repos\HID_TEST\HID_TEST\obj\Debug\HID_TEST.pdb
